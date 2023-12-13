@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* container start */
+.container{
+    width: 100%;
+    background-color: aliceblue;
+}
+/* header start */
+.container .header{
+    padding: 2% 0% ;
+    width: 100%;
+    background: linear-gradient(to right bottom,rgba(11, 17, 17, 0.795),rgba(12, 12, 12, 0.776));
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+.container .header .header-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+.container .header .header-logo .logo{
+    font-size: 40px;
+}
+.container .header .header-logo .logo .air{
+    color: rgb(57, 90, 237);
+}
+.container .header .header-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+    align-self: center;
+}
+.container .header .header-menu .menu-up span i{
+    margin: 25px;
+}
+.container .header .header-menu .menu-down span a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    margin: 10px;
+}
+.container .header .header-menu .menu-down a:hover{
+    background: linear-gradient(to right bottom,rgba(213, 206, 206, 0.315),#000000) !important;
+    padding: 10px 25px;
+} 
+/* header end */
+
+/* article start */
+.container .article{
+    width: 80%;
+    background-color: rgb(69, 69, 224);
+    margin: 0 auto;
+    background-image: url(https://www.malaysiaairlines.com/content/dam/mh/my/en/about-us/about-malaysia-airlines/meta-image/meta-image-1200x630.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.container .article h1{
+    font-size: 55px;
+    color: #fff;
+    padding: 8% 0 0 4%;
+}
+.container .article h2{
+    font-size: 50px;
+    color: #fff;
+    padding: 0 0 2% 12%;
+}
+.container .article p{
+    color: #fff;
+    font-size: 25px;
+    padding: 5% 0 5% 4%;
+}
+/* article end */
+
+/* section start */
+.container .section{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+/* section-left start */
+.container .section .section-left{
+    width: 30%;
+    background-color: lightgray;
+    color: #333;
+    margin-bottom: 35px;
+}
+.container .section .section-left .order{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: -25px;
+    padding: 10px;
+    text-align: center;
+    background-color: #333;
+}
+.container .section .section-left div span{
+    padding: 0 8px;
+}
+.container .section .section-left div span a{
+    text-decoration: none;
+    color: rgb(207, 199, 199);
+    font-size: 20px;
+}
+.container .section .section-left h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 30px 0;
+}
+.container .section .section-left .aside{
+    width: 80%;
+    margin: 0 auto;
+}
+.container .section .section-left .aside .flight{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   font-size: 20px;
+}
+.container .section .section-left .aside .flight .round{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.container .section .section-left .aside .flight input{
+    color: rgb(57, 90, 237);
+    width: 20px;
+}
+.container .section .section-left .aside .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+.container .section .section-left .aside .form input{
+    padding: 5px 20px;
+    border: 1px solid gray;
+    border: inset;
+    border-radius: 5px;
+    margin: 0px !important;
+    font-size: 15px;
+}
+.container .section .section-left .aside .form label{
+    padding: 10px 0px;
+}
+.container .section .section-left .aside .form .input{
+    display: flex;
+    justify-content: space-between;
+}
+.container .section .section-left .aside .form .input .list{
+    width: 45%;
+}
+.container .section .section-left .aside .form .input .list input{
+    width: 100%;
+}
+.container .section .section-left .aside .form .input .pas{
+    width: 80%;
+}
+.container .section .section-left .aside .form .input .pas input{
+    width: 90%;
+}
+.container .section .section-left .aside .form .input .sub input{
+    width: 100%;
+    border: none !important;
+}
+.sub{
+    background-color: rgb(57, 90, 237);
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(227, 216, 216);
+    font-size: 20px !important;
+}
+.container .section .section-left .aside .news{
+    width: 100%;
+    font-size: 22px;
+    margin: 40px 0;
+}
+.container .section .section-left .aside .news .recent{
+font-size: 45px !important;
+}
+.container .section .section-left .aside .news div{
+    margin: 20px 0;
+}
+.container .section .section-left .aside .news div p{
+    margin-bottom: 10px;
+}
+.container .section .section-left .aside .p{
+    color: rgb(57, 90, 237);
+}
+/* section-left end */
+
+/* section-right start */
+.container .section .section-right{
+    width: 70%;
+    background-color: #fff;
+    color: #333;
+}
+.container .section .section-right h2{
+    font-size: 45px;
+    font-weight: 700;
+    padding: 50px;
+}
+.container .section .section-right p{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+.container .section .section-right li{
+    margin-left: 60px;
+    margin-bottom: 15px;
+}
+.container .section .section-right .read{
+    display: flex;
+    justify-content: end;
+}
+.container .section .section-right .read a{
+    background: radial-gradient(rgb(67, 64, 64),black);
+    border-radius: 5px;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #fff;
+}
+.container .section .section-right .res{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+}
+.container .section .section-right .res .res-left{
+    margin-right: 5px;
+}
+.container .section .section-right .res .res-left a{
+    background-color: rgb(57, 90, 237);
+    border-radius: 5px;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #fff;
+}
+.container .section .section-right .res .res-right a{
+    border-radius: 5px;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #fff;
+    background: radial-gradient(rgb(67, 64, 64),black);
+}
+.container .section .section-right .section-end{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .section .section-right .section-end .sqr{
+    background-color: rgb(57, 90, 237);
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+.container .section .section-right .section-end .sqr .lorem{
+    text-align: start;
+    margin: 15px;
+}
+/* section end */
+
+/* footer start */
+footer{
+    width: 100%;
+    background: linear-gradient(to right bottom,rgba(11, 17, 17, 0.795),rgba(12, 12, 12, 0.776));
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+footer h3{
+    margin: 15px;
+    font-size: 25px;
+    position: relative;
+}
+footer h3::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -35%;
+    margin: 0 auto;
+    height: 2px;
+    width: 35vw;
+    background-color: lightgray;
+}
+footer h4{
+    margin: 15px;
+    font-size: 45px;
+}
+/* footer end */
+
+/* media screen start */
+@media screen and (max-width:980px) {
+    .container .section{
+        flex-direction: column;
+    }
+    .container .section .section-left{
+        width: 100%;
+    }
+    .storage{
+        width: 100%;
+    }
+    .container .section .section-right {
+        width: 100%;
+        background-color: #fff;
+        color: #333;
+    }
+    .container .section .section-right .section-end {
+        display: flex;
+        flex-direction: column;
+    }
+    .container .section .section-left .aside .flight {
+        display: flex !important;
+    }
+    .container .section .section-left .aside .flight .round {
+        width: 100%;
+    }
+    .container .header .header-menu {
+        align-items: center;
+    }
+    .container .section .section-right .read{
+        justify-content: center;
+    }
+    .container .section .section-right .res{
+        justify-content: center;
+    }
+}
+/* media screen end */
